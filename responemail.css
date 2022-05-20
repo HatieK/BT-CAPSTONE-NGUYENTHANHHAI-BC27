@@ -1,0 +1,51 @@
+@media screen and (max-width: 740px) {
+    .ban-context{
+        padding: 40px 0px;
+    }
+    .info-email{
+        flex-direction: column;
+    }
+    .title-email{
+        padding: 0px;
+    }
+    p.para{
+        padding: 10px 0px;
+    }
+    .category-list{
+        flex-direction: column;
+    }
+    .category-list-item{
+        height: auto;
+        width: 100%;
+    }
+    .detail-item{
+        flex-direction: column;
+    }
+    .detail-item-photo{
+        width: 100%;
+    }
+    .detail-item:nth-child(2) .detail-item-photo{
+        order: 0;
+    }
+    .detail-item-title{
+        width: 100%;
+    }
+    .lavi h6 {
+        text-align: start;
+        font-size: 30px;
+    }
+    .lavi p{
+        text-align: start;
+        margin: 20px 10px;
+    }
+    .btn-order{
+        align-self: self-start;
+        margin: 0px 10px;
+    }
+    .deli{
+        text-align: start;
+    }
+    .footer-email{
+        flex-direction: column;
+    }
+}
